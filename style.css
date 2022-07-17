@@ -1,1 +1,87 @@
+* {
+	box-sizing: border-box;
+}
 
+html {
+	scroll-behavior: smooth;
+	/*плавная прокрутка при переходе по сылкам в документе*/
+}
+
+.wrapper {
+	width: 1440px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.header {
+	border: 2px solid rgb(18, 84, 119);
+	background-color: rgb(18, 84, 119);
+}
+
+
+
+nav>ul>li>a {
+	color: aliceblue;
+}
+
+li>a {
+	color: black;
+}
+
+.footer {
+	border: 2px solid rgb(18, 84, 119);
+	background-color: rgb(18, 84, 119);
+}
+
+body {
+	font-family: 'Joan', serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+    justify-content: flex-end
+	
+}
+
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-list {
+	list-style: none;
+}
+
+.nav-link {
+	padding: 0 20px;
+	line-height: 50px;
+}
+
+.ul-contacts {
+
+	list-style-type: none;
+}
+
+main {
+	background-color: rgb(214, 235, 247);
+}
+
+.main_content {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	
+}
+
+.container1 {
+	display: flex;
+	padding: 35px;
+}
