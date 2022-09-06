@@ -12,6 +12,7 @@ My current job is not related to development and IT. In 2021 received a master's
  - HTML5, CSS3, JavaScript, Git
  
 ## Code example:
+codewars kata Convert to Binary
 *Given a non-negative integer **n**, write a function **to_binary/ToBinary** which returns that number in a binary format.*
 ```javascript
 function toBinary(n){
