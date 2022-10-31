@@ -1,1 +1,31 @@
+* {
+	box-sizing: border-box;
+}
 
+.wrapper {
+	position: absolute;
+	width: 1400px;
+	height: 539.85px;
+	left: 210.8px;
+	border: 1px solid black;
+}
+
+.body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+.header {
+	display: flex;
+}
+
+.footer {
+	height: 50px;
+	border: 1px solid black;
+}
+
+.rs_link {}
+
+.contacts {}
