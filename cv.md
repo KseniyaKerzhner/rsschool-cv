@@ -6,7 +6,7 @@
 - discord: Kseniya(@KseniyaKerzhner) Dea#0287
 
 ## About me
-My current job is not related to development and IT. In 2021 received a master's degree in civil engineering. As a hobby I studied different areas of development: game-development on C# with Unity, QA, Java, and now trying frontend-development. My current purpose is to change job. I liked front-ent development because it has an element of creativity and chance create something that can help solve someone's problem.
+My current job is not related to development and IT. In 2021 received a master's degree in civil engineering. My current purpose is to change job.
 
 ## Skills and Proficiency:
  - HTML5, CSS3, JavaScript, Git
