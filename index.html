@@ -9,78 +9,124 @@
 	<title>CV</title>
 </head>
 
-<body class="body">
-	<div class="wrapper">
+<body>
 
-		<header class="header">
-			<nav class="nav">
-				<ul class="nav_ul">
-					<li><a href="">About me</a></li>
-					<li><a href="">Contacts</a></li>
-					<li><a href="">Skills and Proficiency</a></li>
-					<li><a href="">Code example</a></li>
-					<li><a href="">Experience</a></li>
-					<li><a href="">Courses</a></li>
-					<li><a href="">Languages</a></li>
-				</ul>
-			</nav>
-		</header>
-
-		<main>
-			<img src="assets/photo.jpg" alt="photo">
-			<h1>Kseniya Kerzhner</h1>
-			<h2 class="contacts">Contacts</h2>
-			<p>telegram: https://t.me/KerzhnerKseniya</p>
-			<p>e-mail: kerzhnerkb@gmail.com</p>
-			<p>discord: Kseniya(@KseniyaKerzhner) Dea#0287</p>
-
-			<h2>About me</h2>
-			<p>My current job is not related to development and IT. In 2021 received a master's degree in civil
-				engineering. As a hobby I studied different areas of development: game-development on C# with Unity, QA,
-				Java, and now trying frontend-development. My current purpose is to change job. I liked front-ent
-				development because it has an element of creativity and chance create something that can help solve
-				someone's problem.</p>
-
-			<h2>Skills and Proficiency</h2>
-			<p>HTML5, CSS3, JavaScript, Git</p>
-
-			<h2>Code example</h2>
-			<p>codewars kata Convert to Binary Given a non-negative integer n, write a function to_binary/ToBinary which
-				returns that number in a binary format.</p>
-			<code>
-				function toBinary(n){
-					return +n.toString(2);
-				  }
-			</code>
-
-			<h2>Experience</h2>
-			https://codepen.io/kseniyakerzhner/pen/MWrXVKO
-			https://codepen.io/kseniyakerzhner/pen/oNELJZb
-			https://codepen.io/kseniyakerzhner/pen/eYVRygz
-			https://rolling-scopes-school.github.io/kseniyakerzhner-JSFEPRESCHOOL2022Q2/travel/
-
-			<h2>Courses</h2>
-			HTML academy
-			freeCodeCamp
-			Netoligy course "Website layout basics"
-			RS School JS / FRONT-END. STAGE 0
-
-			<h2>Languages</h2>
-			Russian - native
-			English - somewhere between B1 Intermediate and B2 Upper Intermediate according to the Common European
-			Framework of Reference, also known as the CEFR.
-			Spanish - basic
-
-		</main>
-
-		<footer class="footer">
-			<ul>
-				<li><a href="https://github.com/KseniyaKerzhner"></a></li>
-				<li class="rs_link"><a href="https://rs.school/js/"><img src="/assets/rs_school_js.svg"
-							alt="rs_school_logo"></a></li>
+	<header class="container">
+		<nav class="nav">
+			<ul class="nav-list">
+				<li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+				<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+				<li class="nav-item"><a href="#skills" class="nav-link">Skills and Proficiency</a></li>
+				<li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+				<li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+				<li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+				<li class="nav-item"><a href="#lang" class="nav-link">Languages</a></li>
 			</ul>
-		</footer>
-	</div>
-</body>
 
-</html>
+		</nav>
+	</header>
+
+
+
+
+	<main class="container">
+
+		<div class="twoblocks">
+
+			<div class="block1">
+
+				<img src="/assets/photo.jpg" width="200" height="205" alt="myphoto">
+
+				<section class="section-contacts" id="contacts">
+					<h2>Contacts</h2>
+					<ul>
+						<li>telegram: https://t.me/KerzhnerKseniya</li>
+						<li>e-mail: kerzhnerkb@gmail.com</li>
+						<li>discord: Kseniya(@KseniyaKerzhner) Dea#0287</li>
+					</ul>
+				</section>
+
+				<section class="" id="languages">
+					<h2>Languages:</h2>
+					<p>Russian - native</p>
+					<p>English - somewhere between B1 Intermediate and B2 Upper Intermediate according to the CEFR.</p>
+					<p>Spanish - basic</p>
+				</section>
+
+			</div>
+
+			<div class="block2">
+				<h1>Kseniya Kerzhner</h1>
+				<h3>Frontend-developer</h3>
+
+				<section class="" id="about">
+					<h2>About me</h2>
+					<p>I am a beginner developer. My current job is not related to development and IT. In 2021 received
+						a
+						master's degree in civil engineering. My current purpose is to change job. I liked front-ent
+						development because it has an element of creativity and chance create something that can help
+						solve
+						someone's problem.</p>
+				</section>
+				<section class="" id="skills">
+					<h2>Skills and Proficiency:</h2>
+					<ul>
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>JavaScript</li>
+						<li>Git</li>
+					</ul>
+				</section>
+
+				<section class="" id="code">
+					<h2>Code example:</h2>
+					<p>codewars kata Convert to Binary Given a non-negative integer n, write a function
+						to_binary/ToBinary
+						which returns that number in a binary format.</p>
+					<code>
+			function toBinary(n){
+		return +n.toString(2);
+	  }
+		  </code>
+				</section>
+
+				<section class="section" id="experience">
+					<h2>Experience:</h2>
+					<ul>
+						<li><a href="https://codepen.io/kseniyakerzhner/pen/MWrXVKO">Progect 1</a></li>
+						<li><a href="https://codepen.io/kseniyakerzhner/pen/oNELJZb">Progect 2</a></li>
+						<li><a href="https://codepen.io/kseniyakerzhner/pen/eYVRygz">Progect 3</a></li>
+						<li><a
+								href="https://rolling-scopes-school.github.io/kseniyakerzhner-JSFEPRESCHOOL2022Q2/travel/">
+								Progect Travel</a></li>
+					</ul>
+
+				</section>
+
+				<section class="" id="courses">
+					<h2>Courses:</h2>
+					HTML academy
+					freeCodeCamp
+					Netoligy course "Website layout basics"
+					RS School JS / FRONT-END. STAGE 0
+				</section>
+
+
+			</div>
+
+
+
+		</div>
+	</main>
+
+	<footer class="container">
+		<div class="footer">
+			<a href="https://github.com/KseniyaKerzhner">MY GITHub</a>
+			<p>2022</p>
+			<a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS_School"
+					width="55" height="40"></a>
+		</div>
+
+	</footer>
+
+</body>

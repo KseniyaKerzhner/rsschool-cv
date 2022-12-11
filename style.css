@@ -1,31 +1,93 @@
+@font-face {
+	font-family: Roboto;
+	src: url("assets/fonts/Roboto.ttf");
+}
+
 * {
 	box-sizing: border-box;
 }
 
-.wrapper {
-	position: absolute;
-	width: 1400px;
-	height: 539.85px;
-	left: 210.8px;
-	border: 1px solid black;
+html {
+	scroll-behavior: smooth;
 }
 
-.body {
+body {
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+.nav {
+	background: #274581;
+}
+
+.twoblocks {
+	display: flex;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.nav {
+	height: 50px;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-list {
+	list-style: none;
+}
+
+.nav-link {
+	padding: 0 20px;
+	line-height: 50px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.block1 {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	width: 40%;
+	background-color: #0A2B53;
+	color: white;
 }
 
+.block1 img {
+	margin: 0 auto;
+}
 
-.header {
+.section-contacts li {
+	list-style: none;
+}
+
+.block2 {
 	display: flex;
+	flex-direction: column;
+	width: 60%;
 }
 
 .footer {
-	height: 50px;
-	border: 1px solid black;
+	background-color: #274581;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-.rs_link {}
+.footer a {
+	text-decoration: none;
+	color: black;
+}
 
-.contacts {}
+.section li {
+	margin-bottom: 10px;
+}
+
+.section li a {
+	text-decoration: none;
+	color: black;
+}
