@@ -12,11 +12,11 @@ html {
 }
 
 body {
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 }
-.nav {
-	background: #274581;
+header {
+	background-color: #2E5D63;
 }
 
 .twoblocks {
@@ -29,7 +29,7 @@ body {
 }
 
 .nav {
-	height: 50px;
+	height: 55px;
 }
 
 .nav-list {
@@ -49,12 +49,17 @@ body {
 	text-decoration: none;
 }
 
+.section {
+	padding: 20px;
+	border-bottom: 1px solid #c7d900;
+}
+
 .block1 {
 	display: flex;
 	flex-direction: column;
 	width: 40%;
-	background-color: #0A2B53;
-	color: white;
+	background-color: #2E5D63;
+	
 }
 
 .block1 img {
@@ -69,13 +74,18 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 60%;
+	background-color: #ADCCCF;
+}
+
+.block2 .section:first-child {
+	text-align: center;
 }
 
 .footer {
-	background-color: #274581;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	background-color: #2E5D63;
 }
 
 .footer a {
@@ -90,4 +100,8 @@ body {
 .section li a {
 	text-decoration: none;
 	color: black;
+}
+
+h2 {
+	color: #A48783;
 }
