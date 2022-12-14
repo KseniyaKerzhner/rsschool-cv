@@ -1,1 +1,143 @@
+@font-face {
+	font-family: Roboto;
+	src: url("assets/fonts/Roboto.ttf");
+}
 
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	background-color: #EBEBEB;
+}
+
+header {
+	background-color: #ffffff;
+}
+
+.twocolumns {
+	display: flex;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.main-container {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	border: 1px solid black;
+}
+
+.nav {
+	height: 55px;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-list {
+	list-style: none;
+}
+
+.nav-link {
+	padding: 0 20px;
+	line-height: 50px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+.section {
+	padding: 20px;
+}
+
+.column1 {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	background-color: #071438;
+}
+
+.column1 {
+	color: #ffffff;
+}
+
+.column1 img {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+.languages {
+	padding-left: 30px;
+}
+
+
+.section-contacts li {
+	list-style: none;
+}
+
+.column1 h2 {
+	color: #918381;
+}
+
+.block2 {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	background-color: #ffffff;
+}
+
+.block2 .section:first-child {
+	text-align: center;
+	padding-bottom: 45px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #b4b3b3;
+}
+
+.footer a {
+	text-decoration: none;
+	color: black;
+}
+
+.section li {
+	margin-bottom: 10px;
+}
+
+.section li a {
+	text-decoration: none;
+	color: black;
+}
+
+.section a:hover {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	color: #574846;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.2);
+	font-size: 24px;
+}
+
+h1 {
+	font-size: 50px;
+}
