@@ -9,7 +9,9 @@
 My current job is not related to development and IT. In 2021 received a master's degree in civil engineering. My current purpose is to change job.
 
 ## Skills and Proficiency:
- - HTML5, CSS3, JavaScript, Git
+ - HTML5, CSS3
+ - JavaScript
+ - Git, GitHub
  
 ## Code example:
 codewars kata Convert to Binary
